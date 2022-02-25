@@ -1,0 +1,86 @@
+/* #FEF3E1 */
+.content-wrapper {
+    color: #FEF3E1;
+    background-image: url("../img/ballena.png");
+    background-position: center center;
+    min-height: 100vh;
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.topbar {
+    height: 44px;
+    border-bottom: 1px solid #FEF3E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.topbar > p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+
+.content-wrapper > img {
+    margin-top: 88px;
+    width: 600px;
+}
+
+.cta-container {
+    margin: 108px 120px 138px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+h2 {
+    font-size: 17px;
+    width: 90%;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: bold;
+    width: 90%;
+}
+
+.mailchimp-form {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    background-color: transparent;
+    border-radius: 10px;
+    height: 24px;
+    font-size: 18px;
+    color: #FEF3E1;
+    border: 3px solid #FEF3E1;
+    width: 60%;
+    margin-right: 16px;
+    text-indent: 6px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder {
+    color: #FEF3E1;
+    margin-left: 12px;
+}
+
+button {
+    color: #FEF3E1;
+    background-color: #295E9A;
+    border: 1px solid #295E9A;
+    border-radius: 10px;
+    height: 32px;
+    padding: 4px 15px;
+    font-size: 17px;
+}
